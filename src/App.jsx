@@ -3,8 +3,8 @@ import { Player } from './Player'
 import { Description } from './Description'
 import { Buttons } from './Buttons'
 import './App.css'
-import goblinvid from './goblin.mp4'
-import confusedvid from './confused.mp4'
+import goblinvid from '../assets/goblin.mp4'
+import confusedvid from '../assets/confused.mp4'
 
 class App extends Component {
   render() {

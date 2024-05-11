@@ -1,7 +1,7 @@
 import './Buttons.css'
-import heart from './heart.svg'
-import comment from './comment.svg'
-import share from './share.svg'
+import heart from '../assets/heart.svg'
+import comment from '../assets/comment.svg'
+import share from '../assets/share.svg'
 import { useState } from 'react'
 
 const Heart = (properties) => {

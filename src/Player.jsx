@@ -13,7 +13,7 @@ const Player = (properties) => {
         <>
             <video className='videoPlayer' ref={videoRef}
                 src={properties.video} onClick={handleVideoClick}
-                autoPlay loop muted />
+                autoPlay muted loop />
         </>
     )
 

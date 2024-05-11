@@ -1,5 +1,5 @@
 import './Description.css'
-import cd from './cd.svg'
+import cd from '../assets/cd.svg'
 
 const Description = (properties) => {
     return (
