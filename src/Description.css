@@ -2,24 +2,27 @@
     position: absolute;
     bottom: 0px;
     left: 0px;
-    background-color: none;
+    /* background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 0.5em; */
     color: white;
     text-align: left;
     padding: 1em;
+    margin: 1em;
     z-index: 1;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 /* .userName,
 .description,
 .mediaName {
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    background-color: rgba(255, 255, 255, 0.192);
+    padding: 0.5em;
+    border-radius: 0.5em;
 } */
 
 .userName {
     font-size: 1.5em;
     font-weight: 700;
-
 }
 
 .description {
