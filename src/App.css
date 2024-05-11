@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap');
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  font-family: "Noto Sans Thai", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+#root {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 auto;
+  text-align: center;
+}
+
+.playerContainer {
+  position: relative;
+  height: 100%;
+  max-width: 100vh;
+  max-height: 95vh;
+  margin: 0 auto;
+  background-color: black;
+  overflow: hidden;
+  aspect-ratio: 9 / 16;
+}

@@ -1,0 +1,54 @@
+.buttonsContainer {
+    position: absolute;
+    background-color: none;
+    right: 0px;
+    top: 30%;
+    padding: 1em;
+    margin: auto auto;
+    z-index: 2;
+}
+
+.singleButtonContainer {
+    background-color: rgba(146, 146, 146, 0.4);
+    border-radius: 50%;
+    padding: 0.7em 0.5em 0.1em 0.5em;
+    display: inline-block;
+}
+
+.subText {
+    font-size: 1em;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(146, 146, 146, 0.6);
+    margin-top: .5em;
+    font-weight: bold;
+}
+
+.heart,
+.comment,
+.share {
+    background-color: none;
+    border: none;
+    width: 2em;
+    height: 2em;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.heart:active,
+.comment:active,
+.share:active {
+    background-color: none;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    filter: grayscale(10%);
+}
+
+.filter-red {
+    filter: invert(15%) sepia(65%) saturate(7432%) hue-rotate(360deg) brightness(109%) contrast(122%);
+}
+
+.filter-white {
+    filter: invert(100%);
+}

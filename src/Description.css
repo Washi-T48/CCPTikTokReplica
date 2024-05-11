@@ -1,0 +1,57 @@
+.descriptionContainer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: none;
+    color: white;
+    text-align: left;
+    padding: 1em;
+    z-index: 1;
+}
+
+/* .userName,
+.description,
+.mediaName {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+} */
+
+.userName {
+    font-size: 1.5em;
+    font-weight: 700;
+
+}
+
+.description {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.spinner {
+    background-color: none;
+    border-radius: 50%;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    animation: spin 2s linear infinite;
+    transform-origin: center;
+    filter: invert(100%);
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.mediaName {
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
